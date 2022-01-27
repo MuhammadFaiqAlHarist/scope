@@ -67,16 +67,42 @@
 
 //* Tugas
 
-var x = 'yoi bro'   // ini adalah global scope
-function makan() {  
-    console.log(x)
-    const c = 'baju' //ini adalah local scope
-    if (true){      // ini adalah block scope
-       let b = 'celana'
-       console.log(b)
-    }
-    console.log(c)
+// var x = 'yoi bro'   // ini adalah global scope
+// function makan() {  
+//     console.log(x)
+//     const c = 'baju' //ini adalah local scope
+//     if (true){      // ini adalah block scope
+//        let b = 'celana'
+//        console.log(b)
+//     }
+//     console.log(c)
+// }
+// makan()
+
+// function hello(sapa) {
+//     var text = 'assalamualaikum' + sapa
+//     return function (){
+//         console.log(text)
+//     }
+// }
+// var nama = hello(" fulan")
+
+// nama()
+
+//* Challenge
+
+function kantor(nama, kelas){
+    let tulisan = 'Nama :' + nama + '\nkelas :' + kelas
+    return function (){
+        console.log(tulisan )
+        
 }
+}
+var makan = kantor(" Faiq", " X RPL A")
 makan()
+
+
+
+    
 
 
