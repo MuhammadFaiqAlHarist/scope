@@ -242,11 +242,11 @@
  */
 
  function year(car) {
-        return year <= 2001
+        return car <= 2001
     }
     
     function cc(car) {
-        return cc >= 150
+        return car >= 150
     }
     
     function vehicle(callback, car) {
@@ -254,7 +254,7 @@
         if(b){
             console.log(`jika ${car} gaperlu bayar pajak`)
         }else{
-            console.log(`dari${car} bayar pajak`)
+            console.log(`dari ${car} bayar pajak`)
         }
     }
-    vehicle(year, 150)
+    vehicle(year , 130)
