@@ -1,23 +1,23 @@
-//* identifier
-/**
- * Indentifier adalah penamaan variable, Fungsi ataupun parameter
- * Karakter pertamanya hanya bisa huruf a-z dan simbol undescore atau dollar
- * tidak bisa menggunakan angka di depan
- * tidak boleh menggunakan bahasa yang sudah ada default di js
- */
+// //* identifier
+// /**
+//  * Indentifier adalah penamaan variable, Fungsi ataupun parameter
+//  * Karakter pertamanya hanya bisa huruf a-z dan simbol undescore atau dollar
+//  * tidak bisa menggunakan angka di depan
+//  * tidak boleh menggunakan bahasa yang sudah ada default di js
+//  */
 
-//* Statement
-/**
- * Statement = suatu pertanyaan js yang paling dasar dan memiliki tugas tertentu
- */
+// //* Statement
+// /**
+//  * Statement = suatu pertanyaan js yang paling dasar dan memiliki tugas tertentu
+//  */
 
 // let name = "hello world" // statemen dasar dan biasa
 // console.log(name);
 
-//* Expression
-/**
- * expression merupakan ekspresi js yang berfungsi untuk menghasilkan nilai tertentu
- */
+// //* Expression
+// /**
+//  * expression merupakan ekspresi js yang berfungsi untuk menghasilkan nilai tertentu
+//  */
 
 // let first = 1
 // let second = 2
@@ -27,15 +27,15 @@
 //     console.log(result)
 // }
 
-//* Scope
-/**
- * cakupan kode agar bisa mengakses atau membatasi
- */
+// //* Scope
+// /**
+//  * cakupan kode agar bisa mengakses atau membatasi
+//  */
 
-//* Global scope
-/**
- * Global Scope merupakan cakupan di seluruh file
- */
+// //* Global scope
+// /**
+//  * Global Scope merupakan cakupan di seluruh file
+//  */
 
 // var a = 'Hello rekan kerja'
 
@@ -65,7 +65,7 @@
 // // }
 // kendaraan()
 
-//* Tugas
+// //* Tugas
 
 // var x = 'yoi bro'   // ini adalah global scope
 // function makan() {  
@@ -89,17 +89,17 @@
 
 // nama()
 
-//* Challenge
+// //* Challenge
 
-function kantor(nama, kelas){
-    let tulisan = 'Nama :' + nama + '\nkelas :' + kelas
-    return function (){
-        console.log(tulisan )
+// function kantor(nama, kelas){
+//     let tulisan = 'Nama :' + nama + '\nkelas :' + kelas
+//     return function (){
+//         console.log(tulisan )
         
-}
-}
-var makan = kantor(" Faiq", " X RPL A")
-makan()
+// }
+// }
+// var makan = kantor(" Faiq", " X RPL A")
+// makan()
 
 
 
